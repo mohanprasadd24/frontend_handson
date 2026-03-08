@@ -1,0 +1,26 @@
+body{
+    background-color:darkgreen;
+    text-align: center;
+}
+#result{
+    display: block;
+    margin: 5px;
+    font-size: 3em;
+}
+#box1{
+    width:100 px;
+    height: 200  px;
+    border: 5 px;
+    background-color: chartreuse;
+
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.btn:hover{
+    background-color:brown;
+}
