@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <script src="script.css" defer></script>
+    <title>Form</title>
+</head>
+<body>
+    <h1 id="myh1">Registration Form</h1>
+    <form action="index.php" method="post">
+        <label id="name">Name:</label>
+        <input type="text" id="name"><br>
+        <label id="password">Password:</label>
+        <input type="password" id="pass"><br>
+        <label id="mail">Email:</label>
+        <input type="email" id="mail"><br>
+        <label id="phone">Phone Number:</label>
+        <input type="tel" id="phone"><br>
+        <label id="dob">dob:</label>
+        <input type="date" id="dob"><br>
+        <label id="quantity">quantity:</label>
+        <input type="number" id="quantity" min="0" max="100"><br>
+        <label for="title">Title:</label>
+        <label>Mr.</label>
+        <input type="radio" id="mr" name="title">
+        <label>Ms.</label>
+        <input type="radio" id="ms"name="title">
+        <label>Doctor</label>
+        <input type="radio" id="Doctor"name="title"><br>
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option>Visa</option>
+            <option>Mastercard</option>
+        </select>
+        <br>
+        <label for="subs">Subscribe!</label>
+        <input type="checkbox" id="subs"><br>
+        <br>
+        <label id="comment">Comment</label>:</label>
+        <textarea rows="3" cols="3"></textarea><br>
+        <label id="file">file:</label>
+        <input type="file" id="name"><br>
+        <button>Sumit</button>
+
+    </form>
+    
+</body>
+</html>
