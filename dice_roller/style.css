@@ -1,0 +1,34 @@
+#fe{
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    font-weight: bold;
+}
+#btn{
+    font-size: 1.5rem;
+    background-color: hsl(199, 100%, 50%);
+    cursor: pointer;
+    border: none;
+    size: 5em;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+#btn:hover{
+    background-color: hsl(199, 100%, 60%);
+}
+#btn:active{
+    background-color: hsl(35, 100%, 80%);
+}
+#dicenum{
+    font-weight: bold;
+    text-align: centers;
+    font-size: 2em;
+    margin: 5px;
+}
+#diceImg img{
+    width:150px;
+    margin:5px
+}
